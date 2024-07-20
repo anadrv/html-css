@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: antiquewhite;
+        }
+
+        header {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: white;
+            padding: 3px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.342);
+            border-radius: 10px;
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: burlywood;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: cadetblue;
+            border-radius: 50%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias"></section>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita necessitatibus perspiciatis commodi praesentium inventore explicabo, repellendus magni et facilis dolor obcaecati ratione. Repudiandae deserunt repellat corrupti, quisquam natus cumque.</p>
+            <aside>
+                <p>Artigo escrito por Sanderson</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por "mim"</p>
+    </footer>
+    <div id="bola"></div>
+    <div id="bola"></div>
+    
+</body>
+</html>

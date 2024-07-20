@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a {
+            color: cadetblue;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+        .especial {
+            background-color: bisque;
+        }
+        a::after {
+            content: ' (link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.skoob.com.br/usuario/1110619" class="especial">Skoob</a></li>
+        <li><a href="https://app.thestorygraph.com/profile/analuisadrv">Storyghaph</a></li>
+    </ul>
+</body>
+</html>
