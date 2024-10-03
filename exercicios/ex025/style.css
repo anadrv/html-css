@@ -10,42 +10,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
-body {
-
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.081);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+* { 
+    margin: 0px;
+    padding: 0px;
 }
+
+
+/* 
 header {
     
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-transform: lowercase;
-    position: absolute;
-    top: 5px;
-    right: 25px; 
+    position: relative;
+    top: 15px;
+    right: 180px; 
     text-align: right;
      
 }
 
-section {
+main h1.projeto {
 
     font-family: "Kiona", Courier, monospace;
     font-size: 30px;
     position: absolute;
-    top: 25px;
-    left: 25px; /* Início a partir daqui */
-    transform: translateX(400px);
-}
+    top: 700px;
+    left: 30px; 
+    transform: translateX(300px);
 
-.minha-imagem {
-    width: 200px;  
-    height: 900px;  
-}
+} */
+
+
