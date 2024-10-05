@@ -10,34 +10,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+:root {
+    --cor0: #f1f1ff1;
+    --cor1: #7300B6
+    --cor2: #000000;
+
+
+    --fonte-padrao: "Montserrat", sans-serif;
+    --fonte-destaque: "Kiona", Courier, monospace;
+
+}
+
+
 * { 
     margin: 0px;
     padding: 0px;
 }
 
 
-/* 
-header {
+body {
+
+    background-color: black;
+    font-family: var(--fonte-padrao);
+    color: white;
     
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    text-transform: lowercase;
-    position: relative;
-    top: 15px;
-    right: 180px; 
-    text-align: right;
-     
 }
 
-main h1.projeto {
+main > nav {
 
-    font-family: "Kiona", Courier, monospace;
-    font-size: 30px;
-    position: absolute;
-    top: 700px;
-    left: 30px; 
-    transform: translateX(300px);
+    background-color: blueviolet;
+    width: 200px;
+    height: 800px;
+}
 
-} */
+nav > a {
+
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: .5s;
+
+}
+
+main {
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(163, 163, 163, 0.151);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+}
+
 
 
