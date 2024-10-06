@@ -58,6 +58,9 @@ nav > a {
 
 main {
 
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -67,18 +70,31 @@ main {
     box-shadow: 0px 0px 10px rgba(163, 163, 163, 0.151);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
 
+main > nav {
+    background-color: blueviolet;
+    width: 250px;
+    height: 800px;
+    font-size: 1em;
+    margin-right: 20px; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+h1, h2 {
+    margin-left: 10px;
+    font-family: var(--fonte-destaque);
 }
 
 h1 {
-    font-family: var(--fonte-destaque);
     font-size: 2em;
 }
 
 h2 {
-    font-family: var(--fonte-destaque);
     font-size: 1.5em;
 }
-
-
-
