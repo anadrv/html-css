@@ -1,4 +1,4 @@
-@charset "UTG-8";
+@charset "UTF-8";
 
 @font-face {
     font-family: 'kiona';
@@ -9,52 +9,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
     --cor0: #f1f1ff1;
-    --cor1: #7300B6
+    --cor1: #7300B6;
     --cor2: #000000;
-
 
     --fonte-padrao: "Montserrat", sans-serif;
     --fonte-destaque: "Kiona", Courier, monospace;
-
 }
-
 
 * { 
     margin: 0px;
     padding: 0px;
 }
 
-
 body {
-
     background-color: black;
     font-family: var(--fonte-padrao);
     color: white;
-    
 }
 
-main > nav {
+header {
 
-    background-color: blueviolet;
-    width: 250px;
-    height: 800px;
-    font-size: 1em;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: end;
+    margin-inline-end: 280px;
+    font-size: 0.9em;
 }
 
-nav > a {
-
-    color: white;
-    display: block; 
-    padding: 20px;
-    margin-inline-start: 50px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition-duration: .5s;
-
-}
 
 main {
 
@@ -73,11 +56,46 @@ main {
 }
 
 main > nav {
-    background-color: blueviolet;
+
+    
+    position: fixed;
+    top: 0;
+    background-color: var(--cor1);
     width: 250px;
-    height: 800px;
+    height: 100vh;
     font-size: 1em;
-    margin-right: 20px; 
+    padding-top: 60px;
+    
+    
+}
+
+
+nav a {
+
+    margin-inline-start: 60px;
+    color: white;
+    display: block; 
+    padding: 25px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: .5s;
+    
+}
+
+nav a:hover {
+
+    transform: scale(0.95);
+    background-color: #dddddd2a;
+    padding: 5%;
+    margin-inline-end: 30px;
+
+
+}
+
+article {
+    margin-left: 270px;
+    padding: 20px;
+    flex-grow: 1;
 }
 
 .content {
@@ -85,6 +103,20 @@ main > nav {
     flex-direction: column; 
     justify-content: flex-start; 
 }
+
+footer {
+
+    font-size: 0.8em;
+    color: white; 
+    text-align: center; 
+    margin-inline-start: 150px;
+    padding: 10px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+
+}
+
 
 h1, h2 {
     margin-left: 10px;
