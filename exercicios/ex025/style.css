@@ -11,7 +11,7 @@
 
 :root {
     --cor0: #f1f1ff1;
-    --cor1: #7300B6;
+    --cor1: #B60070;
     --cor2: #000000;
 
     --fonte-padrao: "Montserrat", sans-serif;
@@ -24,6 +24,7 @@
 }
 
 body {
+
     background-color: black;
     font-family: var(--fonte-padrao);
     color: white;
@@ -67,6 +68,12 @@ main > nav {
     padding-top: 60px;
     
     
+}
+
+.icon {
+    width: 24px; /* Largura do ícone */
+    height: 24px; /* Altura do ícone */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
 }
 
 
