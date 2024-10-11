@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.py" method="get"></form>
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="ixmas"> <label for="imaxs">Masculino</label>
+        <input type="radio" name="sexo" id="ixfem" checked> <label for="ixfem">Feminino</label>
+    </fieldset>
+    <fieldset>
+        <legend>Livros favoritos</legend>
+        <input type="checkbox" name="caminho" id="icaminho"> <label for="icaminho">Caminho dos Reis</label> <br>
+        <input type="checkbox" name="nome" id="inome"> <label for="inome">O Nome do Vento</label> <br>
+        <input type="checkbox" name="six" id="isix"> <label for="isix">Six of Crows</label> <br>
+        <input type="checkbox" name="ladrao" id="iladrao"> <label for="iladrao">O Ladrão de Raios</label> <br>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>
