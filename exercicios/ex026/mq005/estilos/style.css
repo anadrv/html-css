@@ -14,13 +14,27 @@ header {
     background-color: blueviolet;
 }
 
-h1 {
+header > h1 {
     padding: 10px;
     text-align: center;
 }
 
-menu {
+i#menu {
+    background-color:  rgb(50, 1, 96);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#menu:hover {
+
+    background-color: white;
+    color: black;
+}
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -34,7 +48,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(64, 0, 124);
+    background-color:c;
     color: white;
     border-top: 2px solid rgb(152, 89, 211);
 
