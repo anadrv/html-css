@@ -12,6 +12,7 @@ body, html {
 
 header {
     background-color: blueviolet;
+    color: aliceblue;
 }
 
 header > h1 {
@@ -48,9 +49,9 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color:c;
+    background-color: rgb(114, 38, 186);
     color: white;
-    border-top: 2px solid rgb(152, 89, 211);
+    border-top: 2px solid rgb(123, 71, 172);
 
 }
 
