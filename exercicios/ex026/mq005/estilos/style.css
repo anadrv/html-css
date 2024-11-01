@@ -11,14 +11,19 @@ body, html {
 }
 
 header {
+
+    
     background-color: blueviolet;
     color: aliceblue;
+    
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
+    
 }
+
 
 i#menu {
     background-color:  rgb(50, 1, 96);
@@ -49,7 +54,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(114, 38, 186);
+    background-color: rgb(50, 1, 96);
     color: white;
     border-top: 2px solid rgb(123, 71, 172);
 

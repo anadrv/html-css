@@ -48,9 +48,9 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin-left: 100px;
     margin-bottom: 30px;
     padding: 0px;
-    background-color: rgb(0, 0, 0);
     box-shadow: 0px 0px 10px rgba(163, 163, 163, 0.151);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -58,7 +58,6 @@ main {
 
 main > nav {
 
-    
     position: fixed;
     top: 0;
     background-color: var(--cor1);
