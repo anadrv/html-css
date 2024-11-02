@@ -155,13 +155,9 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #22402B;
+    background-color: #101d14;
     color: white;
 }
 
-form > a.botao > i {
 
-    font-size: 0.8em;
-
-}
 
