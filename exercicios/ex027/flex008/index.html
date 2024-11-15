@@ -9,8 +9,6 @@
             background-color: aquamarine;
             display: flex;
             flex-flow: row wrap;
-            align-items: flex-start;
-            height: 400px;
         }
 
         div.item {
@@ -22,16 +20,16 @@
         }
 
         div#i1 {
-            align-self: auto;
+            order: 0;
         }
         div#i2 {
-            align-self: flex-end;
+            order: 5;
         }
         div#i3 {
-            align-self: center;
+            order: 1;
         }
         div#i4 {
-           align-self: stretch;
+            order: -1;
         }
 
     </style>
