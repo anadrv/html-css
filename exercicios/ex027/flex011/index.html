@@ -16,18 +16,30 @@
             border: 1px solid white;
             text-align: center;
             flex-basis: 250px;
+        }
+
+        div#a {
             flex-shrink: 1;
             flex-grow: 1;
-            
+        }
+
+        div#b {
+           flex-shrink: 1; 
+           flex-grow: 4;
+        }
+
+        div#c {
+           flex-shrink: 1; 
+           flex-grow: 0;
         }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
 
     </div>
 </body>
